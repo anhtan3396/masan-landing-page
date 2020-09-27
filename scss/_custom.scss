@@ -1,0 +1,142 @@
+#resources{
+  background-color: $secondary;
+  .showcase-text{
+    h2{
+      color:  #B06C18;
+    }
+    .light-text{
+      color:  #C48C46;
+    }
+  }
+}
+.showcase .see-more-btn{
+  background-color:  #C4C4C4;
+  ;
+}
+.bg-resources{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.high-tech-block{
+  background-color: $primary;
+  opacity: .8;
+  width: 70%;
+  float: right;
+  padding: 6rem 3rem;
+}
+hr.high-tech-hr{
+  border-top: 2px solid rgba(255, 255, 255, 1);
+}
+.sustainability-block{
+  background-color: $primary;
+  float: left;
+  padding:  3rem;
+}
+
+#sustainability{
+  padding: 150px 0 0;
+  h2{
+    color: #C48C46;
+    
+  }
+  .bg-primary-light{
+    background-color: rgb(196,140,70);
+    color: #fff;
+    width: fit-content;
+  }
+  .sustainability-title{
+    padding: 5px 15px;
+  }
+  
+  .sustainability-ground{
+    position: relative;
+    .sustainability-content{
+      
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      top: 50%;
+      text-align: center;
+      h5{
+        font-size: 14px;
+      }
+     
+    }
+  }
+}
+.lead{
+  font-size: 18px;
+}
+
+.publication-ground{
+  position: relative;
+  .publication-content{
+    hr.publication-hr{
+      border-top: 2px solid #fff;
+    }
+    .mt-minus-60{
+      margin-top: -60px;
+    }
+    .fs-96{
+      font-size: 96px;
+    }
+    .fw-300{
+      font-weight: 300;
+    }
+    position: absolute;
+    text-align: left;
+    width: fit-content;
+    right: 0;
+    top: 0;
+  }
+}
+#social{
+  margin-top: 0.5rem;
+  background-color: $primary;
+  img{
+    margin: 0 5px;
+  }
+  span{
+    padding: 0 5px;
+  }
+}
+#publication{
+  background-color: #A5B3AB;
+}
+.subheader-link{
+    color: $primary;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+
+.form-group .form-control {
+  padding-right: 2.375rem;
+  background-color: transparent;
+  border:none;
+  border-bottom:2px solid $primary;
+  color: $primary;
+  border-radius:0px;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  right: 0;
+  bottom: 50%;
+  text-align: center;
+  pointer-events: none;
+}
+#sub-header{
+  background-color: $secondary;
+  span{
+    margin: auto;
+  }
+}
+.navbar-light .navbar-toggler{
+  color: $primary;
+  border-color: #4B3905;
+}

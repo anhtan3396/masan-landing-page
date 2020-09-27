@@ -6,20 +6,67 @@
 		<meta name="description" content="" />
 		<meta name="author" content="" />
 
-		<title>Scrolling Nav - Start Bootstrap Template</title>
+		<title>Masan</title>
 
 		<!-- Bootstrap core CSS -->
 		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
 		<!-- Custom styles for this template -->
-		<link href="css/scrolling-nav.css" rel="stylesheet" />
+		<link href="css/landing-page.css" rel="stylesheet" />
 	</head>
 
 	<body id="page-top">
-		<!-- Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+		<div id="sub-header" class="header">
 			<div class="container">
-				<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+				<div class="row">
+					<div class="col-lg-6 col-4 my-auto">
+						<div class="row">
+							<span class="mx-2 col-xs-12">
+								<img
+									src="img/headphone-icon.svg"
+									class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+								<a class="subheader-link" href="tel:1900 1900">1900 1900</a>
+							</span>
+							<span class="mx-2 col-xs-12"
+								>
+								<img
+								src="img/pin-icon.svg"
+								class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+								alt=""
+							/>
+								<a class="subheader-link" href="#">CONTACT US</a>
+							</span
+							>
+						</div>
+					
+						
+					</div>
+					<div class="col-lg-6 col-8 text-right">
+						<div class="row float-right">
+							<a class="subheader-link" href="#">English</a>
+							<a class="subheader-link" href="#">Vietnamese</a>
+							<div class="form-group">
+								<img src="img/search-icon.svg" class="fa fa-search form-control-icon"></img>
+								<input type="text" class="form-control" placeholder="Search">
+							  </div>  
+						</div>
+					</div>
+				</div>
+				<!--/row-->
+			</div>
+			<!--container-->
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top sticky-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand js-scroll-trigger" href="#page-top">
+					<img
+						src="img/masan-logo.svg"
+						class="logo img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+						alt=""
+					/>
+				</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -37,7 +84,7 @@
 							<a class="nav-link js-scroll-trigger" href="#about">ABOUT US</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#resoutces">VIETNAM RESOURCES </a>
+							<a class="nav-link js-scroll-trigger" href="#resources">VIETNAM RESOURCES </a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link js-scroll-trigger" href="#publication">PUBLICATION</a>
@@ -53,100 +100,360 @@
 			</div>
 		</nav>
 
-		<header class="bg-primary text-white">
-			<div class="container text-center">
-				<h1>Welcome to Scrolling Nav</h1>
-				<p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+		<section id="resources" class="showcase">
+			<div class="container-fluid p-0">
+				<div class="row no-gutters text-lg-right">
+					<div
+						class="col-lg-6 order-lg-2 text-white showcase-img"
+						style="background-image: url('img/bg-showcase-1.png')"
+					></div>
+					<div class="col-lg-6 order-lg-1 my-auto showcase-text">
+						<h2>FROM</h2>
+						<h2>STRATEGIC RESOURCES</h2>
+						<h3 class="light-text">TO HIGH-TECH GLOBAL MATERIALS</h3>
+						<hr />
+						<p class="lead mb-0 my-4">
+							Masan High-Tech Materials (MHT) is a leading global supplier of midstream tungsten products
+							across critical industries such as, automotive, aviation, chemical production, construction,
+							electronics, energy, engineering, mining, and tool making.
+						</p>
+						<p class="lead mb-0 my-4">
+							Masan High-Tech Materials' objective is to demonstrate to the world that a Vietnamese
+							company can lead the transformation of the global tungsten market by working closely with
+							our customers to deliver them local solutions developed globally. This will enable MHT to
+							deliver a consistent and strong financial profile across business cycles.
+						</p>
+						<button type="button" name="" id="" class="btn btn-primary btn-lg btn-block">
+							Dowload PDF
+						</button>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div
+						class="col-lg-6 text-white showcase-img"
+						style="background-image: url('img/bg-showcase-2.png')"
+					></div>
+					<div class="col-lg-6 order-lg-1 my-auto showcase-text">
+						<h2>STRATEGIC RESOURCES</h2>
+						<p class="lead mb-0 my-4">
+							<b>MHT represents a strategic source</b> of supply for customers seeking high quality
+							products made from primary or recycled tungsten units. From Vietnam, Masan Tungsten Company
+							provides high quality APT, BTO & YTO units from primary concentrate, while through the
+							recently acquired HC Starck Tungsten Powders, one of Europe’s largest tungsten recyclers,
+							<b>provides high quality powders</b> and carbides produced locally in Germany, China, or
+							Canada to the exacting requirements of our local customer base.
+						</p>
+						<p class="lead mb-0 my-4">
+							<b>MHT’s quality position</b> is underpinned through its in-house R&D facilities in Germany
+							& Vietnam supported by its <b>100% owned commercial laboratory ChemiLytics.</b> ChemiLytics
+							is the #1 Refractory Analytical Laboratory in Europe and is one of the largest industrial
+							laboratories in Germany for inorganic elemental analysis and powder characterisation.
+						</p>
+						<p class="lead mb-0 my-4">
+							Through the 100% owned Nui Phao Mining Company, MHT operates the largest single fluorite
+							mine outside of the two major sources (China and Mexico) accounting
+							<b>for 6-7% of total global supply of acid-grade fluorspar</b>
+						</p>
+					</div>
+				</div>
 			</div>
-		</header>
+		</section>
 
-		<section id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<h2>About this page</h2>
-						<p class="lead">
-							This is a great place to talk about your webpage. This template is purposefully unstyled so
-							you can use it as a boilerplate or starting point for you own landing page designs! This
-							template features:
-						</p>
-						<ul>
-							<li>Clickable nav links that smooth scroll to page sections</li>
-							<li>Responsive behavior when clicking nav links perfect for a one page website</li>
-							<li>
-								Bootstrap's scrollspy feature which highlights which section of the page you're on in
-								the navbar
-							</li>
-							<li>Minimal custom CSS so you are free to explore your own unique design options</li>
-						</ul>
+		<section id="publication" class="showcase">
+			<div class="container-fluid p-0">
+				<div
+					class="row no-gutters"
+					style="
+						background-image: url('img/publication-bg.png');
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-position: bottom;
+					"
+				>
+					<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3">
+						<img
+							src="img/bg-showcase-right.png"
+							class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+							alt=""
+						/>
+					</div>
+					<div class="col-lg-6 order-lg-1 my-auto showcase-text showcase-text-3 text-lg-right text-white publication-ground">
+						<div class="publication-content">
+							<h5>PUBLICATION</h5>
+							<hr class="publication-hr">
+							<h2>Annual</h2>
+							<h2 class="mt-minus-60">
+								Report <span class="fw-300">in</span> <span class="fs-96">2019</span>
+							</h2>
+							
+						</div>
+						<button type="button" name="" id="" class="btn btn-lg see-more-btn">SEE MORE</button>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="resoutces" class="bg-light">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<h2>Services we offer</h2>
-						<p class="lead">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore,
-							expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo
-							assumenda laborum vel, labore ut velit dignissimos.
-						</p>
+		<section id="hight-tech-materials" class="bg-resources" style="background-image: url('img/bg-resources.png')">
+			<div class="container-fluid p-0">
+				<div class="row no-gutters text-lg-left">
+					<div class="col-lg-6 order-lg-2 text-white showcase-img"></div>
+					<div class="col-lg-6 order-lg-1 my-auto showcase-text text-white">
+						<div class="high-tech-block">
+							<h2 class="text-uppercase">high-tech materials</h2>
+							<hr class="high-tech-hr" />
+							<p class="lead mb-0 my-4">
+								MHT is the leading premium supplier of the technology metal tungsten and
+								high-performance carbides. With innovativeness, a clear commitment to quality, and
+								extensive technological expertise we work along-side our customers across the entire
+								value-creation chain, supporting them as an expert partner in development and solution
+								creation.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section id="publication">
-			<div class="container">
+		<section
+			id="sustainability"
+			style="
+				background-image: url('img/sustainability-bg.svg');
+				background-size: cover;
+				background-repeat: no-repeat;
+			"
+		>
+			<div class="container p-0">
 				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<h2>Contact us</h2>
-						<p class="lead">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor,
-							provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae
-							ipsa exercitationem, in, quo totam.
-						</p>
+					<div class="col-lg-6 text-white showcase-img mt-auto">
+						<div class="row no-gutters">
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3  sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/plus-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY HEALTH AND SAFETY
+									</h5>
+								</div>
+							
+								<img
+									src="img/m1.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/leaf-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY ENVIRONMENT									</h5>
+								</div>
+								<img
+									src="img/m2.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/stuck-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY MINING									</h5>
+								</div>
+								<img
+									src="img/m3.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/setting-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY PROCESSING									</h5>
+								</div>
+								<img
+									src="img/m4.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/polygon-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY SUPPLY 
+										CHAIN MANAGEMENT									</h5>
+								</div>
+								<img
+									src="img/m5.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/group-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY 
+										HUMAN RESOURCE DEVELOPMENT									</h5>
+								</div>
+								<img
+									src="img/m6.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/hand-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										SUSTAINABILITY COMMUNITY
+										AND ECONOMIC RESTORATION									</h5>
+								</div>
+								<img
+									src="img/m7.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+							<div class="col-lg-6 order-lg-2 text-white showcase-img showcase-3 sustainability-ground">
+								<div class="sustainability-content">
+									<img
+									src="img/chart-icon.svg"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+									<h5>
+										FINANCE									</h5>
+								</div>
+								<img
+									src="img/m8.png"
+									class="midle-img img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+									alt=""
+								/>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 order-lg-1 mt-auto showcase-text mt-md-2">
+						<h2 class="sustainability-title bg-primary-light">SUSTAINABILITY</h2>
+						<h2 class="sustainability-title">PERFORMANCE</h2>
+						<div class="sustainability-block text-white">
+							<p class="lead">
+								The Sustainability Report was prepared in accordance with the Global Reporting
+								Initiative (GRI), G4 Guidelines. It reflects the application of and alignment with the
+								recognized international policies, standards and management practices, including the
+								principles set out by the International Council on Mining and Metals (ICMM) Sustainable
+								Development Framework, the United Nations GlobalCompact (UNGC),theWorldBank’sguidelines
+								on involuntary resettlement, Environmental and Social Impact Assessment (ESIA) and other
+								policies as well as standards and practices for sustainable society and environment set
+								out by the International Finance Corporation (IFC).
+							</p>
+							<p class="lead">
+								This year’s sustainability report is particularly characterized with its adherence to
+								the Sustainable Development Goals (SDGs) and the Corporate Sustainability Index (CSI).
+								This was partly driven by the fact that the Vietnam Chamber of Commerce and Industry
+								(VCCI) recently began to provide a means to assess the level of sustainable development
+								of Vietnamese enterprises.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="hight-tech-materials">
+		<section id="social">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<h2>Contact us</h2>
-						<p class="lead">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor,
-							provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae
-							ipsa exercitationem, in, quo totam.
-						</p>
+					<div class="col-lg-8 mx-auto showcase-text py-5 text-white text-center">
+						<h2 class="text-uppercase my-auto">
+							<span>Connect with us</span>
+							<span>
+								<a href="#"
+									><img
+										src="img/fb-icon.svg"
+										class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+										alt=""
+								/></a>
+								<a href="#"
+									><img
+										src="img/zalo-icon.svg"
+										class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+										alt=""
+								/></a>
+								<a href="#"
+									><img
+										src="img/ins-icon.svg"
+										class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+										alt=""
+								/></a>
+								<a href="#"
+									><img
+										src="img/ytb-icon.svg"
+										class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+										alt=""
+								/></a>
+								<a href="#"
+									><img
+										src="img/linked-icon.svg"
+										class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+										alt=""
+								/></a>
+							</span>
+						</h2>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="sustainability">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 mx-auto">
-						<h2>Contact us</h2>
-						<p class="lead">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor,
-							provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae
-							ipsa exercitationem, in, quo totam.
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-	
 
 		<!-- Footer -->
-		<footer class="py-5 bg-dark">
+		<footer class="py-5">
 			<div class="container">
-				<p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+				<div class="row">
+					<div class="col-lg-10">
+						<p class="font-weight-bold">&copy; 2020 MASAN HIGH - TECH MATERIALS</p>
+						<p class=" ">
+							Suite 802, 8th Floor, Central Plaza, 17 Le Duan, Ben Nghe Ward, District 1, Ho Chi Minh
+							City, Vietnam
+						</p>
+						<p class=" ">
+							No. 0309966889 issued by the Department of Planning and Investment of Ho Chi Minh City on
+							April 27, 2010, as amended for the 16th time on May 20, 2019
+						</p>
+					</div>
+					<div class="col-lg-2">
+						<img
+							src="img/footer-logo.svg"
+							class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+							alt=""
+						/>
+					</div>
+				</div>
 			</div>
 			<!-- /.container -->
 		</footer>

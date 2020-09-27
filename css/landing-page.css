@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
 
@@ -51,19 +51,55 @@ header.masthead h1 {
   }
 }
 
+.showcase#resources {
+  padding-bottom: 0;
+}
+
+.showcase .midle-img {
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+}
+
+.showcase .showcase-img.showcase-3 {
+  position: relative;
+  min-height: 20rem;
+}
+
 .showcase .showcase-text {
   padding: 3rem;
 }
 
+.showcase .showcase-text.showcase-text-3 {
+  padding: 6rem;
+  position: relative;
+}
+
+.showcase .showcase-text.showcase-text-3 .see-more-btn {
+  position: absolute;
+  bottom: 0;
+}
+
 .showcase .showcase-img {
   min-height: 30rem;
+  background-position: center;
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 3rem;
   }
+}
+
+.showcase .btn-primary {
+  background-color: #4B3905;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .features-icons {
@@ -96,8 +132,20 @@ header {
   padding: 156px 0 100px;
 }
 
-section {
-  padding: 150px 0;
+.navbar-light .navbar-nav .nav-link {
+  color: #4B3905;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #4B3905;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #4B3905;
+}
+
+.navbar-brand {
+  margin-right: 0;
 }
 
 .testimonials {
@@ -133,7 +181,258 @@ section {
   opacity: 0.3;
 }
 
-footer.footer {
+footer {
+  background-color: #fbfaf7;
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+#resources {
+  background-color: #A5B3AB;
+}
+
+#resources .showcase-text h2 {
+  color: #B06C18;
+}
+
+#resources .showcase-text .light-text {
+  color: #C48C46;
+}
+
+.showcase .see-more-btn {
+  background-color: #C4C4C4;
+}
+
+.bg-resources {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.high-tech-block {
+  background-color: #4B3905;
+  opacity: .8;
+  width: 70%;
+  float: right;
+  padding: 6rem 3rem;
+}
+
+hr.high-tech-hr {
+  border-top: 2px solid white;
+}
+
+.sustainability-block {
+  background-color: #4B3905;
+  float: left;
+  padding: 3rem;
+}
+
+#sustainability {
+  padding: 150px 0 0;
+}
+
+#sustainability h2 {
+  color: #C48C46;
+}
+
+#sustainability .bg-primary-light {
+  background-color: #c48c46;
+  color: #fff;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#sustainability .sustainability-title {
+  padding: 5px 15px;
+}
+
+#sustainability .sustainability-ground {
+  position: relative;
+}
+
+#sustainability .sustainability-ground .sustainability-content {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  top: 50%;
+  text-align: center;
+}
+
+#sustainability .sustainability-ground .sustainability-content h5 {
+  font-size: 14px;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.publication-ground {
+  position: relative;
+}
+
+.publication-ground .publication-content {
+  position: absolute;
+  text-align: left;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  right: 0;
+  top: 0;
+}
+
+.publication-ground .publication-content hr.publication-hr {
+  border-top: 2px solid #fff;
+}
+
+.publication-ground .publication-content .mt-minus-60 {
+  margin-top: -60px;
+}
+
+.publication-ground .publication-content .fs-96 {
+  font-size: 96px;
+}
+
+.publication-ground .publication-content .fw-300 {
+  font-weight: 300;
+}
+
+#social {
+  margin-top: 0.5rem;
+  background-color: #4B3905;
+}
+
+#social img {
+  margin: 0 5px;
+}
+
+#social span {
+  padding: 0 5px;
+}
+
+#publication {
+  background-color: #A5B3AB;
+}
+
+.subheader-link {
+  color: #4B3905;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.form-group .form-control {
+  padding-right: 2.375rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #4B3905;
+  color: #4B3905;
+  border-radius: 0px;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  right: 0;
+  bottom: 50%;
+  text-align: center;
+  pointer-events: none;
+}
+
+#sub-header {
+  background-color: #A5B3AB;
+}
+
+#sub-header span {
+  margin: auto;
+}
+
+.navbar-light .navbar-toggler {
+  color: #4B3905;
+  border-color: #4B3905;
+}
+
+@media (max-width: 767.98px) {
+  .logo.img-fluid {
+    width: 75%;
+  }
+  .showcase .showcase-img {
+    min-height: 20rem;
+  }
+  footer .img-fluid {
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+  }
+  #sub-header .form-group .form-control-icon {
+    bottom: 20px;
+    right: 20px;
+  }
+  #sub-header .subheader-link {
+    padding: 0;
+  }
+  #sub-header .logo.img-fluid {
+    width: 75%;
+  }
+  #sustainability {
+    padding: 0;
+  }
+  .showcase .showcase-text.showcase-text-3 {
+    padding: 0 3rem 3rem;
+  }
+  #sub-header .img-fluid {
+    width: unset;
+  }
+  #social .img-fluid {
+    width: unset;
+  }
+  #social span {
+    display: block;
+    padding: 10px;
+  }
+  #sustainability .sustainability-title {
+    text-align: center;
+  }
+  #sustainability .bg-primary-light {
+    width: unset;
+  }
+  .mt-md-2 {
+    margin-top: 2rem !important;
+  }
+  .high-tech-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #sustainability {
+    padding: 50px 0;
+  }
+  .showcase .showcase-text.showcase-text-3 {
+    text-align: center;
+  }
+  .showcase .showcase-text.showcase-text-3 .see-more-btn {
+    position: relative;
+  }
+  .showcase .midle-img {
+    width: 100%;
+  }
+  .publication-ground .publication-content {
+    position: relative;
+    margin: 0 auto;
+  }
+  .publication-ground .publication-content .mt-minus-60 {
+    margin-top: 0px;
+  }
+  .navbar-collapse {
+    margin-top: 25px;
+  }
+  .sustainability-ground .img-fluid {
+    width: 100%;
+  }
 }

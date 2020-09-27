@@ -6,8 +6,18 @@
  header {
     padding: 156px 0 100px;
   }
-  
-  section {
-    padding: 150px 0;
+  .navbar-light .navbar-nav .nav-link{
+    color: $primary;
   }
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: $primary;
+
+  }
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: $primary;
+  }
+  .navbar-brand{
+    margin-right:0 ;
+  }
+
   

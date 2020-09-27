@@ -1,14 +1,44 @@
 .showcase {
+  &#resources{
+    padding-bottom: 0;
+  }
+  .midle-img{
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  }
+  .showcase-img.showcase-3{
+    position: relative;
+    min-height: 20rem;
+    
+  }
   .showcase-text {
     padding: 3rem;
   }
+  .showcase-text.showcase-text-3 {
+    padding: 6rem;
+    position: relative;
+    .see-more-btn{
+      position: absolute;
+      bottom: 0;
+    }
+  }
   .showcase-img {
     min-height: 30rem;
+    background-position: center;
     background-size: cover;
   }
+
   @media (min-width: 768px) {
     .showcase-text {
-      padding: 7rem;
+      padding: 3rem;
     }
+  }
+  .btn-primary{
+    background-color: $primary;
+    width: fit-content;
+    margin: 0 auto;
   }
 }
